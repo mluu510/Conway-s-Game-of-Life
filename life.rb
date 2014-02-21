@@ -19,9 +19,9 @@ class Life
       str = ''
       rows.each do |cell|
         if cell
-          str << '* '
+          str << '0 '
         else
-          str << '  '
+          str << '. '
         end
       end
       puts str
